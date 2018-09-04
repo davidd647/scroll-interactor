@@ -6,7 +6,7 @@ on a single page website.
  #### requires jquery
 
  ### example
-   <ul class="scroll-interactor" style="position: fixed">
+   ```<ul class="scroll-interactor" style="position: fixed">
 
     <li>
       <a href="#">
@@ -30,14 +30,14 @@ on a single page website.
 
   <section id="home"></section>
   <section id="about"></section>
-  <section id="contact"></section>
+  <section id="contact"></section>```
 
  ### example:
-  var scrollInteractor = new ScrollInteractor({
+  ```var scrollInteractor = new ScrollInteractor({
     targets: [
       { $navLink: G('.nav-home'), $target: G('#home') },
       { $navLink: G('.nav-about'), $target: G('#about') },
       { $navLink: G('.nav-contact'), $target: G('#contact') },
     ]
   });
-  scrollInteractor.init();
+  scrollInteractor.init();```
