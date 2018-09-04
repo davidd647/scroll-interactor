@@ -8,7 +8,7 @@ It does two main things.
 1. If the user clicks on a link with the class described in your <strong>targets</strong> array, they will be smooth-scrolled to the corresponding $target element (also in the <strong>targets</strong> array)
 2. If the user scrolls to a section on that is noted in your <strong>targets</strong> array, the link will have a class added to it (which you can use for highlighting or styling)!
 
-#### Requires jquery
+#### (requires jQuery)
 
 ### Example:
   ### JS:
