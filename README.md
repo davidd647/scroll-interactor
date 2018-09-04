@@ -1,11 +1,12 @@
 A Javascript plugin that presets interactions with primary nav and scrolling
 on a single page website.
 
- #### author David Dales <david.c.dales@gmail.com>
+ #### Author David Dales <david.c.dales@gmail.com>
 
- #### requires jquery
+ #### Requires jquery
 
- ### example
+ ### Example:
+ ### HTML:
    ```
     <ul class="scroll-interactor" style="position: fixed">
 
@@ -34,7 +35,7 @@ on a single page website.
     <section id="contact"></section>
   ```
 
- ### example:
+ ### JS:
   ```javascript
   var scrollInteractor = new ScrollInteractor({
     targets: [
