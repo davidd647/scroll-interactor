@@ -6,7 +6,7 @@ on a single page website.
  #### requires jquery
 
  ### example
-   <pre>
+   ```<pre>
     <ul class="scroll-interactor" style="position: fixed">
 
       <li>
