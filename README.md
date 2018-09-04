@@ -6,38 +6,43 @@ on a single page website.
  #### requires jquery
 
  ### example
-   ```<ul class="scroll-interactor" style="position: fixed">
+   <pre>
+    <ul class="scroll-interactor" style="position: fixed">
 
-    <li>
-      <a href="#">
-        <span class="nav-home">Home</span>
-      </a>
-    </li>
+      <li>
+        <a href="#">
+          <span class="nav-home">Home</span>
+        </a>
+      </li>
 
-    <li>
-      <a href="#">
-        <span class="nav-about">About</span>
-      </a>
-    </li>
+      <li>
+        <a href="#">
+          <span class="nav-about">About</span>
+        </a>
+      </li>
 
-    <li>
-      <a href="#">
-        <span class="nav-contact">Contact</span>
-      </a>
-    </li>
+      <li>
+        <a href="#">
+          <span class="nav-contact">Contact</span>
+        </a>
+      </li>
 
-  </ul>
+    </ul>
 
-  <section id="home"></section>
-  <section id="about"></section>
-  <section id="contact"></section>```
+    <section id="home"></section>
+    <section id="about"></section>
+    <section id="contact"></section>
+  </pre>
+  ```
 
  ### example:
-  ```var scrollInteractor = new ScrollInteractor({
+  ```javascript
+  var scrollInteractor = new ScrollInteractor({
     targets: [
       { $navLink: G('.nav-home'), $target: G('#home') },
       { $navLink: G('.nav-about'), $target: G('#about') },
       { $navLink: G('.nav-contact'), $target: G('#contact') },
     ]
   });
-  scrollInteractor.init();```
+  scrollInteractor.init();
+  ```
