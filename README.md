@@ -52,5 +52,3 @@ It does two main things.
     <section id="about"></section>
     <section id="contact"></section>
   ```
-
-#### Author David Dales <david.c.dales@gmail.com>
