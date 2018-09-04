@@ -7,7 +7,6 @@ on a single page website.
 
  ### example
    ```
-   <pre>
     <ul class="scroll-interactor" style="position: fixed">
 
       <li>
@@ -33,7 +32,6 @@ on a single page website.
     <section id="home"></section>
     <section id="about"></section>
     <section id="contact"></section>
-  </pre>
   ```
 
  ### example:
