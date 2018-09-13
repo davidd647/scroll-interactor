@@ -95,6 +95,10 @@ define(['jquery'], function(G) {
         } else {
 
           plugin.settings.targets.forEach(function(target) {
+            if (!target.$target.length) {
+              console.error('Target does not exist.');
+            }
+
             // Update coordinates of target sections
             target.top = target.$target.position().top;
 
